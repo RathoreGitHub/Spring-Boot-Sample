@@ -18,7 +18,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.howtodoinjava.rest.dao.EmployeeDAO;
 import com.howtodoinjava.rest.model.Employee;
 import com.howtodoinjava.rest.model.Employees;
-//sample app
+
 @RestController
 @RequestMapping(path = "/employees")
 public class EmployeeController 
