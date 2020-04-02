@@ -37,14 +37,14 @@ public class EmployeeController
     {
         return employeeDao.getAllE();
     }
-    // test file
+   
     @GetMapping(path="/{a}/{b}", produces = "application/json")
     public String getMultiplication(@PathVariable("a") String a, @PathVariable("b") String b) 
     {
     	System.out.println("a: "+ a+ "b: "+b);
         return employeeDao.getMultiplication(a, b );
     }
-    
+    // sample
   /*  @PostMapping(path= "/", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Object> addEmployee(
                         @RequestHeader(name = "X-COM-PERSIST", required = true) String headerPersist,
