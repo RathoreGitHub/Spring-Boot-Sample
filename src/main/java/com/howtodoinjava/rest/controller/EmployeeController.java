@@ -21,7 +21,7 @@ import com.howtodoinjava.rest.model.Employees;
  
 @RestController
 @RequestMapping(path = "/employees")
-
+// fetch example
 public class EmployeeController 
 {
     @Autowired
