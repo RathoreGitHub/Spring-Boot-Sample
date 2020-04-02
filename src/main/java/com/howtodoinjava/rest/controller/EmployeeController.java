@@ -18,10 +18,10 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.howtodoinjava.rest.dao.EmployeeDAO;
 import com.howtodoinjava.rest.model.Employee;
 import com.howtodoinjava.rest.model.Employees;
-// Testing 
+ 
 @RestController
 @RequestMapping(path = "/employees")
-// commit
+
 public class EmployeeController 
 {
     @Autowired
